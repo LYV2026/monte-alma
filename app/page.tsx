@@ -76,7 +76,7 @@ export default function HomePage() {
             <p className="text-white/80 text-lg leading-relaxed mb-8 font-light">Productos macrobióticos y suplementos naturales en Costa Rica, con atención cercana y pedidos fáciles por WhatsApp.</p>
             <div className="flex flex-wrap gap-3">
               <Link href="/tienda" className="inline-flex items-center gap-2 bg-brand-gold text-white font-medium px-7 py-3.5 rounded-full hover:bg-brand-gold/90 transition-all group">
-                Comprar ahora <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                Explora nuestros productos <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </Link>
               <a href={getContactWhatsAppURL()} target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/30 text-white font-medium px-7 py-3.5 rounded-full hover:bg-white/20 transition-all">
