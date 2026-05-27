@@ -27,6 +27,7 @@ module.exports = {
         'fade-in': 'fadeIn 0.5s ease-out',
         'slide-up': 'slideUp 0.4s ease-out',
         'slide-in-right': 'slideInRight 0.35s ease-out',
+        'bounce-slow': 'bounce 2s infinite',
       },
       keyframes: {
         fadeIn: {
@@ -45,7 +46,14 @@ module.exports = {
       boxShadow: {
         'soft': '0 2px 20px rgba(0,0,0,0.06)',
         'card': '0 4px 30px rgba(0,0,0,0.08)',
-        'hover': '0 8px 40px rgba(47,93,58,0.15)',
+        'hover': '0 12px 40px rgba(47,93,58,0.18)',
+        'gold': '0 8px 30px rgba(198,162,90,0.25)',
+        'glass': '0 8px 32px rgba(0,0,0,0.08), inset 0 1px 0 rgba(255,255,255,0.6)',
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-brand': 'linear-gradient(135deg, #2F5D3A 0%, #3D7A4D 100%)',
+        'gradient-gold': 'linear-gradient(135deg, #C6A25A 0%, #E8D5A3 100%)',
       },
     },
   },
