@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import dynamic from 'next/dynamic'
 import {
   ArrowRight,
   ChevronDown,
@@ -23,6 +24,11 @@ import {
 import { getFeaturedProducts } from '@/data/products'
 import { ProductCard } from '@/components/ProductCard'
 import { getContactWhatsAppURL } from '@/lib/whatsapp'
+
+const MountainScene = dynamic(
+  () => import('@/components/ui/mountain-scene').then((m) => m.MountainScene),
+  { ssr: false },
+)
 
 export const metadata: Metadata = {
   title: 'Monte Alma | Productos Macrobióticos y Suplementos Naturales en Costa Rica',
@@ -126,14 +132,8 @@ export default function HomePage() {
       {/* ─── HERO ─── */}
       <section className="grain-overlay relative min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <Image
-            src="/brand/hero-bg.jpg"
-            alt="Monte Alma Costa Rica — bienestar natural"
-            fill
-            className="object-cover"
-            priority
-            quality={92}
-          />
+          {/* Animated Three.js mountain scene — brand green Perlin noise terrain */}
+          <MountainScene />
           {/* Layered gradient for depth */}
           <div className="absolute inset-0 bg-gradient-to-r from-brand-charcoal/85 via-brand-charcoal/55 to-brand-charcoal/20" />
           <div className="absolute inset-0 bg-gradient-to-t from-brand-charcoal/40 via-transparent to-transparent" />
