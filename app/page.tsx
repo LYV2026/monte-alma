@@ -199,8 +199,12 @@ export default function HomePage() {
       </section>
 
       {/* ─── BENEFITS ─── */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section
+        className="py-24 bg-white relative"
+        style={{ backgroundImage: 'url(/brand/bg-benefits.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+      >
+        <div className="absolute inset-0 bg-white/78" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <p className="text-brand-gold font-semibold tracking-[0.18em] uppercase text-xs mb-3">¿Por qué Monte Alma?</p>
             <h2 className="font-display text-4xl md:text-5xl text-brand-charcoal">Tu aliado de confianza</h2>
@@ -231,8 +235,12 @@ export default function HomePage() {
       <div className="section-divider mx-auto max-w-4xl" />
 
       {/* ─── BRANDS ─── */}
-      <section className="py-20 bg-brand-beige">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section
+        className="py-20 bg-brand-beige relative"
+        style={{ backgroundImage: 'url(/brand/bg-brands.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+      >
+        <div className="absolute inset-0 bg-brand-beige/72" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <p className="text-brand-gold font-semibold tracking-[0.18em] uppercase text-xs mb-3">Nuestros aliados</p>
             <h2 className="font-display text-4xl md:text-5xl text-brand-charcoal">Marcas que manejamos</h2>
@@ -295,7 +303,11 @@ export default function HomePage() {
       </section>
 
       {/* ─── SHOP BY NEED ─── */}
-      <section className="py-24 bg-brand-green grain-overlay">
+      <section
+        className="py-24 grain-overlay relative"
+        style={{ backgroundImage: 'url(/brand/bg-needs.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+      >
+        <div className="absolute inset-0 bg-brand-green/82" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <p className="text-brand-gold font-semibold tracking-[0.18em] uppercase text-xs mb-3">Encontrá lo que necesitás</p>
@@ -323,8 +335,12 @@ export default function HomePage() {
       </section>
 
       {/* ─── HOW TO BUY ─── */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section
+        className="py-24 bg-white relative"
+        style={{ backgroundImage: 'url(/brand/bg-howto.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+      >
+        <div className="absolute inset-0 bg-white/80" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <p className="text-brand-gold font-semibold tracking-[0.18em] uppercase text-xs mb-3">Simple y cercano</p>
             <h2 className="font-display text-4xl md:text-5xl text-brand-charcoal">¿Cómo comprás?</h2>
@@ -397,8 +413,12 @@ export default function HomePage() {
       </section>
 
       {/* ─── FAQ ─── */}
-      <section className="py-24 bg-white">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6">
+      <section
+        className="py-24 bg-white relative"
+        style={{ backgroundImage: 'url(/brand/bg-faq.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+      >
+        <div className="absolute inset-0 bg-white/80" />
+        <div className="relative max-w-3xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-14">
             <p className="text-brand-gold font-semibold tracking-[0.18em] uppercase text-xs mb-3">Preguntas frecuentes</p>
             <h2 className="font-display text-4xl md:text-5xl text-brand-charcoal">¿Tenés dudas?</h2>
@@ -427,7 +447,11 @@ export default function HomePage() {
       </section>
 
       {/* ─── CTA FINAL ─── */}
-      <section className="py-24 bg-brand-charcoal grain-overlay">
+      <section
+        className="py-24 bg-brand-charcoal grain-overlay relative"
+        style={{ backgroundImage: 'url(/brand/bg-cta.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+      >
+        <div className="absolute inset-0 bg-brand-charcoal/78" />
         <div className="relative max-w-3xl mx-auto px-4 sm:px-6 text-center">
           {/* Decorative glow */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-brand-gold/5 rounded-full blur-3xl pointer-events-none" aria-hidden="true" />
