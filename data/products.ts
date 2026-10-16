@@ -871,7 +871,7 @@ export const products: Product[] = [
     warnings: 'Suplemento alimenticio; no sustituye una alimentacion balanceada ni tratamiento medico.',
     image: '/products/ck_10_omega_3.jpg',
     featured: false,
-  },,
+  },
   // ─── LA CASITA NATURAL — 18 productos según catálogo recibido ───
   {
     id: 'lcn-aguaje', slug: 'lcn-aguaje', name: "Aguaje", brand: 'La Casita Natural',
