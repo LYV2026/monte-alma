@@ -881,7 +881,7 @@ export const products: Product[] = [
     benefits: ["+ Vitamina E y vitamina D", "Caja con 60 cápsulas"],
     usage: "Tomar 1 cápsula 2 veces al día, con abundante agua.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/aguaje.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-bneurin', slug: 'lcn-bneurin', name: "B-neurín", brand: 'La Casita Natural',
@@ -891,7 +891,7 @@ export const products: Product[] = [
     benefits: ["Fuente de vitaminas neurótropas", "Frasco con 60 tabletas"],
     usage: "Tomar 1 tableta 2 veces al día.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/bneurin.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-coladecaballo', slug: 'lcn-coladecaballo', name: "Cola de Caballo", brand: 'La Casita Natural',
@@ -901,7 +901,7 @@ export const products: Product[] = [
     benefits: ["Bebida instantánea", "Frasco con 200 gramos"],
     usage: "Caliente 1 taza de agua y disuelva 1 cucharada vigorosamente. Tome caliente como té instantáneo.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/coladecaballo.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-fibrakids', slug: 'lcn-fibrakids', name: "Fibra Kids", brand: 'La Casita Natural',
@@ -911,7 +911,7 @@ export const products: Product[] = [
     benefits: ["+ Vitamina C", "Frasco con 200 gramos"],
     usage: "Disolver 2 cucharadas en medio vaso de agua y tomar 1 o 2 veces al día, preferiblemente antes de las comidas.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/fibrakids.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-fitocalm4', slug: 'lcn-fitocalm4', name: "Fitocalm-4", brand: 'La Casita Natural',
@@ -921,7 +921,7 @@ export const products: Product[] = [
     benefits: ["Valeriana, pasiflora, melisa y tilo", "Caja con 60 cápsulas"],
     usage: "Tomar 1 o 2 cápsulas, 1 hora antes de acostarse por la noche.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/fitocalm4.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-bioflora', slug: 'lcn-bioflora', name: "Bioflora", brand: 'La Casita Natural',
@@ -931,7 +931,7 @@ export const products: Product[] = [
     benefits: ["Lactobacillus sporogenes", "Caja con 60 tabletas"],
     usage: "Tomar máximo 1 tableta 3 veces al día, con comidas.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/bioflora.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-jugovegetal', slug: 'lcn-jugovegetal', name: "Jugo Vegetal", brand: 'La Casita Natural',
@@ -941,7 +941,7 @@ export const products: Product[] = [
     benefits: ["Nutrientes de frutas y verduras", "Envase de 1 litro"],
     usage: "Disolver 30 ml de Jugo Vegetal en 200 ml de agua. Tomar 2 veces al día.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/jugovegetal.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-cartigel', slug: 'lcn-cartigel', name: "Cartigel", brand: 'La Casita Natural',
@@ -951,7 +951,7 @@ export const products: Product[] = [
     benefits: ["Colágeno hidrolizado y vitamina C", "Caja con 30 sobres de 8 g / Lata de 300 g"],
     usage: "Diluir el contenido de 1 sobre en medio vaso de agua, agitar y tomar 1 vez al día.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/cartigel.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-regenart', slug: 'lcn-regenart', name: "Regenart", brand: 'La Casita Natural',
@@ -961,7 +961,7 @@ export const products: Product[] = [
     benefits: ["Glucosamina y condroitina", "30 sobres de 8 g / Envase 240 g / 60 cápsulas"],
     usage: "Polvo: diluir 1 sobre en medio vaso de agua y tomar 1 vez al día. Cápsulas: tomar 2 cápsulas 2 veces al día.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/regenart.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-oximental', slug: 'lcn-oximental', name: "Oximental", brand: 'La Casita Natural',
@@ -971,7 +971,7 @@ export const products: Product[] = [
     benefits: ["Ginkgo biloba + complejo B", "Caja con 60 cápsulas"],
     usage: "Tomar 1 cápsula 2 veces al día.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/oximental.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-unadegato', slug: 'lcn-unadegato', name: "Uña de Gato", brand: 'La Casita Natural',
@@ -981,7 +981,7 @@ export const products: Product[] = [
     benefits: ["Uncaria tomentosa", "Frasco con 60 cápsulas de gelatina"],
     usage: "Tomar 2 cápsulas 2 veces al día, después de las comidas.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/unadegato.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-prostatec', slug: 'lcn-prostatec', name: "Prostatec", brand: 'La Casita Natural',
@@ -991,7 +991,7 @@ export const products: Product[] = [
     benefits: ["Semillas de calabaza, selenio y vitamina E", "Frasco con 90 cápsulas de gelatina"],
     usage: "Tomar 1 cápsula 2 veces al día.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/prostatec.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-defenseup', slug: 'lcn-defenseup', name: "Defense-Up", brand: 'La Casita Natural',
@@ -1001,7 +1001,7 @@ export const products: Product[] = [
     benefits: ["Fortalece el sistema inmunitario", "Frasco con 60 cápsulas"],
     usage: "Tomar 1 cápsula 2 veces al día, con las comidas. Máximo 2 cápsulas al día.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/defenseup.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-chancapiedra', slug: 'lcn-chancapiedra', name: "Chanca Piedra", brand: 'La Casita Natural',
@@ -1011,7 +1011,7 @@ export const products: Product[] = [
     benefits: ["Cálculos renales", "Frasco con 60 cápsulas"],
     usage: "Tomar 1 cápsula 2 veces al día, con abundante agua. Máximo 2 cápsulas al día.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/chancapiedra.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-levaduradecerveza', slug: 'lcn-levaduradecerveza', name: "Levadura de Cerveza", brand: 'La Casita Natural',
@@ -1021,7 +1021,7 @@ export const products: Product[] = [
     benefits: ["Suplemento nutricional", "Frasco con 60 tabletas"],
     usage: "Tomar 1 tableta 2 o 3 veces al día, con abundante agua. No superar la dosis diaria recomendada.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/levaduradecerveza.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-manzanilla', slug: 'lcn-manzanilla', name: "Manzanilla", brand: 'La Casita Natural',
@@ -1031,7 +1031,7 @@ export const products: Product[] = [
     benefits: ["Bienestar digestivo", "Frasco con 90 cápsulas"],
     usage: "Tomar 1 cápsula 3 veces al día, con abundante agua. No superar la dosis diaria recomendada.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/manzanilla.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-aceitedeoregano', slug: 'lcn-aceitedeoregano', name: "Aceite de Orégano", brand: 'La Casita Natural',
@@ -1041,7 +1041,7 @@ export const products: Product[] = [
     benefits: ["Antimicrobiano natural", "Gotero de 50 ml / Gotero de 100 ml"],
     usage: "Se recomienda 1 gotero al día. Usar al gusto, mezclar con alimentos o utilizar de forma externa.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/aceitedeoregano.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   },
   {
     id: 'lcn-aceitedemoringa', slug: 'lcn-aceitedemoringa', name: "Aceite de Moringa", brand: 'La Casita Natural',
@@ -1051,7 +1051,7 @@ export const products: Product[] = [
     benefits: ["Fuente natural de vitamina B", "Gotero de 50 ml"],
     usage: "Se recomienda 1 gotero al día. Usar al gusto, mezclar con alimentos o utilizar de forma externa.",
     warnings: 'Revisar el etiquetado y las indicaciones del fabricante antes de consumir. Consultar a un profesional de salud cuando corresponda.',
-    image: "/products/lcn/aceitedemoringa.png", featured: false,
+    image: '/brand/brand-la-casita-natural.jpg', featured: false,
   }
 ]
 
